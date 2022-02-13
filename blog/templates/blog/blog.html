@@ -1,0 +1,126 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+  <h2 style="font-family: 'Quicksand', sans-serif; text-align: center">Welcome to My Blog Page!<br>
+</h2>
+<div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 17.5px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white;text-align:center">
+                    <a style="font-size:40px;line-height:75px;"><u>Final Paper</u><br></a>
+                        <b>
+                            <a style="line-height: 35px;">
+                            <a href = "https://docs.google.com/document/d/1IJiuWc87UjHoMF0tAnOL6oj34il32oawqHTDFgn7agY/edit?usp=sharing">This is a link to my Final Paper. Thank you for following along with my project and please continue to support it for future updates.</a>
+                        </a>
+            </b>
+        </h5>
+    </div>
+<div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 20px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white; text-align: center">
+            <b>
+                <a style="font-size:40px;line-height:75px"><u>Final Presentation</u><br></a>
+                <a style="line-height: 35px">Here is my Final Presentation for my Posture Correction Algorithm. Thank you for following my journey.<br></a>
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/Q9_ij_r6-x8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </b>
+        </h5>
+    </div>
+<div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 20px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white; text-align: center">
+            <b>
+                <a style="font-size:40px;line-height:75px"><u>Digital Narrative #3</u><br></a>
+                <a style="line-height: 35px">Here is my Third Digital Narrative detailing a shift into researching deep neural networks to further my posture correction algorithm research.<br></a>
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/wGGZ3e9BJTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </b>
+        </h5>
+    </div>
+</div>
+<div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 17.5px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white;text-align:center">
+                    <div class="col-md-12">
+                    <a style="font-size:40px;line-height:75px;"><u>Project Journal #3</u><br></a>
+                    </div>
+            <b>
+                    <div class="col-md-12">
+                        <a style="line-height: 35px;">
+                            Since the previous project journal, I have been working on advancing my posture correction model. Namely, I have been focusing on jawline recognition. This is where I encountered the first obstacle of my research. This was because, while analyzing body posture using a facial webcam, the lower back was essentially being ignored. As such I found that using jawline, is a way to get a better estimate of the lower back posture. While there is preliminary research on this topic, it is not very in-depth. This leaves me with the issue of figuring out, how the jaw can best encapsulate the picture of how one's lower back posture is, and how accurate this method is. /n
+                            Specifically, I believe that a side view and a front view would both be necessary to get the most natural encapsulation of the lower jaw, which is the most important here. However, to highlight the lower jaw, there must be a point of reference, since otherwise the program would simply identify if a lower jaw exists, since it has no comparison point for a worse lower jaw line. As such, I have found that adding a point between the nose and lips, at the center of the face, creates a diamond-like shape that can be used for more accurate comparisons.
+                            This leads me to the two major obstacles to my current research and model creation that I am yet to solve. Firstly, I am not sure how well a diamond shaped annotation will be able to integrate in the existing model that uses lines, rather than shapes, in order to recognize posture. However, to test this, I attempted to export my annotations but was unable to do so. This is the most major problem I currently face, as my machine, for some reason is unable to recognize the annotations I make using my custom video. I plan, in the future, to first use more generic datasets to understand and learn data annotation, before utilizing my own video in order to create the desired machine learning model.
+                            This will leave me with the final phase of my project, which is to integrate this jawline recognition model into currently existing machine learning models. However, if I find that my model will not integrate easily, using the machine learning model "stacking" method to combine models, I will just modify my existing model to mimic those models as well as recognizing jawline(whose only drawback, would be the added time and effort in order to implement it effectively).
+                        </a>
+                    </div>
+            </b>
+        </h5>
+    </div>
+<div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 20px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white; text-align: center">
+            <b>
+                <a style="font-size:40px;line-height:75px"><u>Elevator Pitch #1 - Progress Update</u><br></a>
+                <a style="line-height: 35px">Here is an elevator pitch summarizing my progress so far and plans for the future: <br></a>
+                <iframe width="1090" height="515" src="https://www.youtube.com/embed/o2J-HfE7niM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </b>
+        </h5>
+    </div>
+</div>
+<div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 17.5px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white;text-align:center">
+                    <div class="col-md-12">
+                    <a style="font-size:40px;line-height:75px;"><u>Project Journal #2</u><br></a>
+                    </div>
+            <b>
+                    <div class="col-md-12">
+                        <a style="line-height: 35px;">
+                            Since the last project journal, I have narrowed down many important details regarding my planned posture correction model. My plan is split within 3 parts:
+The first of these parts is to utilize the AlwaysAI starter apps to test current posture correction capabilities. I did this by following a series of tutorials for mapping human sitting posture, as well as using my own coding knowledge to add a series of if statements to synthesize the point the model produced into real data. This includes warning for slouching, leaning, etc. However, I found several inefficiencies in the model which I outlined within my digital narrative.
+From here began the second step, which was to assess the plan for improvement of the model. Specifically, as I mentioned in my digital narrative I concluded that the stomatognathic system could be used to help improve the model.
+I would like to note my work on the third step now, which is to begin work to create a new model, and then steadily improve that new model in order to unlock the capability to better understand and diagnose human sitting postural correction. I utilized the alwaysAI model training toolkit, which uses a program known as docker, in order to annotate and label computer vision models. I have begun to take my own data, which can be done simply with my own local machine and a camera. I plan to change the camera used, from my local device, to be changed into an external webcam, namely a mobile phone, in order to simulate a more natural image taken of a human being in sitting posture, while working on their primary working machine at their desk. Additionally, I have also learned that the longer I run the machine learning model, and the more I improve it, the easier it is to reduce the level of errors that the original application displayed. This will be done by manually bounding boxes to my jawline throughout the frames of an entire video sample, and then getting the model to emulate my annotations and as such “recognize” my jawline. Through this, I have finished the planning for the jawline recognition model, which when executed, should provide me with a model that I can add to the previously existing model that I used. The final step would be to repeat the process in order to combine the two applications, as well as any other useful ideas, in order to create this new postural correction algorithm for human sitting posture. In terms of more logistical issues, I am currently coding the program to allow me to use my phone webcam, in order for me to get the increased efficiency I previously tested for, as well as testing the effects of objects on face/facial hair affecting jawline recognition within the program which is showing promising early results of having little effect on the program.
+                        </a>
+                    </div>
+            </b>
+        </h5>
+    </div>
+<div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 20px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white; text-align: center">
+            <b>
+                <a style="font-size:40px;line-height:75px"><u>Digital Narrative #2</u><br></a>
+                <a style="line-height: 35px">Here is my Second Digital Narrative: It details the roadmap for my creation of a new posture correction algorithm, and improvements I have already made.<br></a>
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/uxUYilIIt9M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </b>
+        </h5>
+    </div>
+</div>
+<div>
+    <div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 17.5px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white;text-align:center">
+                    <div class="col-md-12">
+                    <a style="font-size:40px;line-height:75px;"><u>Project Journal #1</u><br></a>
+                    </div>
+            <b>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a style="line-height: 35px;">
+                            The key to any successful project is the platform with which it is presented to the world. Keeping this in mind, for my iSTEM-i independent research project, I needed a website that would allow me to truly represent my work. I could have used an online website builder, however, I created my own website using the web development platform Django using the Python programming language. This web development platform allows me to be able to manage a series of pages within a website very cleanly, and manages many administration features for the back end work, allowing me to focus on the front end quality for user interaction. With this in mind, my major goal after redesigning was to find a way to deploy my website. I had not yet learned how to make my website available to the public, and after a few classes of learning, I was able to master the Heroku deployment platform and utilize it to publish my Django website. The integration of Django into Heroku was very beneficial to my work, and I find this to be characteristic of why Django is such a good fit for my work. Since I am creating a Machine Learning algorithm in Python, making a Django python website will allow me to better integrate my future work into my website.<br> On the project front, I am utilizing a machine learning development platform known as AlwaysAI. This allows me to pick from a series of starter applications,specifically, one for posture identification, to provide a base for my project. I spent a few classes working on learning how to use AlwaysAI and being able to initialize the starter app on my machine to create my own posture identification app. AlwaysAI is a very powerful tool as it provides me with the necessary tools to execute my work and a streamlined dashboard along with tutorials for AI apps.
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a style="line-height: 35px">
+                            My primary work on the platform, was to have some way to continually notify the user during initial postural misfiguration. This is vital to the aim of my program, as people are unable to mind their posture during long work sessions, and as such they need to be notified when their posture is out of line for the efficacy of the program. I was able to achieve this via a notification sound that would play whenever there was a disturbance in a person’s posture. For the logic of my program, I defined two states that the computer vision model will recognize: a human whose posture is correct, which would always be true unless the model found that the human’s posture was incorrect. This is done using the pose estimation starter that AlwaysAI provides in order to be able to recognize a human object from other objects and to be able to use angular features that the computer can recognize in order to map a series of ‘joints’(points of interest). This allows the model to map the most useful features, such as the chin, the ear, and eyes. For the preliminary version of my model, I made the eyes and ears the markers used to define posture. In order to rectify a flaw in other postural applications, I made sure to use the eyes and ears as they are easily visible through a laptop webcam, as opposed to more formalized analysis of human joints in standing posture. This is because when humans slouch, it is usually due to the inability to see the screen or weakness caused by the insufficient support of the lower back. As such, when a person’s eyes are determined to be lower than the position of their ears, it is a result of a very clear slouching behavior. The major issue with the program is that due to general inefficiencies in the model, during testing I had to put an extra strain on my posture in order for the program to recognize deficiencies. As such, I will have to aim to improve the efficiency so that it detects these strains with more ease or perhaps set recommendations for the camera setup(as I faced this problem with the camera facing me head-on which reduces the accuracy of the program in detecting positional differences). Once exciting prospect in my research to improve the model was the possibility to analyze the stomatognathic system due to its connection to the spinal system. This will allow the program to better target points on the lower back, with only a scan of the human face.
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </h5>
+    </div>
+    <div class="col-md-12">
+        <h5 style="font-family: 'Montserrat', sans-serif;font-size: 20px;line-height:35px; margin-top: 20px; color: #333333; border: 2px round #333333; padding: 10px; border-radius: 3px; background-color: white; text-align: center">
+            <b>
+                <a style="font-size:40px;line-height:75px"><u>Digital Narrative #1</u><br></a>
+                <a style="line-height: 35px">Here is my First Digital Narrative: <br></a>
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/V9YLlg7UeqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </b>
+        </h5>
+    </div>
+</div>
+{% endblock content %}
